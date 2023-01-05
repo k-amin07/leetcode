@@ -1,0 +1,1 @@
+This repo contains solutions to the problems I solve on leetcode. My leetcode profile can be found [here](https://leetcode.com/KhizarAmin/)
