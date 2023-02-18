@@ -16,3 +16,5 @@ Example 3:
 
 Input: root = []
 Output: []
+
+[Link](https://leetcode.com/problems/invert-binary-tree/description/)
