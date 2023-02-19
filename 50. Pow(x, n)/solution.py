@@ -1,36 +1,22 @@
+# A more effiecient solution, based on the recurrence relation
+# x^n = x * (x^2)^((n-1)/2) if n is odd else (x^2)^(n/2)
+
 class Solution:
     def myPow(self, x: float, n: int) -> float:
-        if(x == 1):
-            return x
-        if(x == -1 and n % 2):
-            return -1
-        if(x == -1 and n % 2 == 0):
-            return 1
-        if(n == -1):
-            return 1/x
-        if(n == 1):
-            return x
-        if(n < 0):
-            n = n*-1
-            x = 1/x
-        sol = x
-        p = 1
-        for i in range(n-1):
-            if(p > n):
-                break
-            sol = sol * sol
-            if(p == 1):
-                p = 2
+        def helper(base, exponent):
+            if(exponent == 0):
+                return 1
+            elif(exponent % 2):
+                return base * helper(base*base, (exponent-1)//2)
             else:
-                p = p*2
-            if(abs(sol) < 0.0000009 and p < n):
-                return 0.00000
-        while(p > n):
-            p = p - 1
-            sol = sol / x
-
-        return sol
+                return helper(base*base, exponent//2)
+        if(n < 0):
+            return helper(1/x, n*-1)
+        else:
+            return helper(x, n)
 
 
 sol = Solution()
-sol.myPow(8.84372, -5)
+print(sol.myPow(8.84372, -5))
+
+# credits: https://leetcode.com/problems/powx-n/solutions/749109/python-recursive-solution-faster-than-99/?languageTags=python
