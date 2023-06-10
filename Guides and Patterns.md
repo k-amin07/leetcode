@@ -1,0 +1,7 @@
+- Dynamic Programming Patterns to solve most problems: [Link](https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns).
+- Java template to solve most substring problems: [Link](https://leetcode.com/problems/minimum-window-substring/solutions/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems/).
+- General approach to backtracking in Java: [Link](https://leetcode.com/problems/permutations/solutions/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)/).
+- Two pointer problems: [Link](https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointers-problems-in-100-days)
+- Python binary search template: [Link](https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems)
+- C++ Maximum sliding window cheatsheet template: [Link](https://leetcode.com/problems/frequency-of-the-most-frequent-element/solutions/1175088/C++-Maximum-Sliding-Window-Cheatsheet-Template/)
+- Graphs for beginners: [Link](https://leetcode.com/discuss/study-guide/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
