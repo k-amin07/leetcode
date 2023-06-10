@@ -1,3 +1,4 @@
+- Neetcode Roadmap: [Link](https://neetcode.io/roadmap)
 - Dynamic Programming Patterns to solve most problems: [Link](https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns).
 - Java template to solve most substring problems: [Link](https://leetcode.com/problems/minimum-window-substring/solutions/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems/).
 - General approach to backtracking in Java: [Link](https://leetcode.com/problems/permutations/solutions/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)/).
