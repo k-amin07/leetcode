@@ -1,0 +1,3 @@
+- `for i in array` is significantly faster than `for i in range(len(array))` which is in turn faster than a while loop. [Reference](https://betterprogramming.pub/python-loops-performance-compared-the-fastest-is-b4638744a1ff)
+    - In [219. Contains Duplicates](https://leetcode.com/problems/contains-duplicate-ii/description/), my first accepted solution used a `while(r<len(nums))` loop, which had a runtime of 629 ms (beats 22.33% submissions at the time of writing).
+    - The same solution took 596 ms (beats 74.24%) with a `for in` loop.
